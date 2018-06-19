@@ -125,6 +125,7 @@ module.exports = () => {
 
       defaultCommands['tlb-move'] = {
         run(ed, sender, opts) {
+          debugger;
           let dragger;
           const em = ed.getModel();
           const event = opts && opts.event;
